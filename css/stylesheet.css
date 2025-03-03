@@ -17,7 +17,7 @@ h3{
     font-size: 1.5rem;
     font-family: "Merriweather", serif;
 }
-p{
+p, a{
     font-size: 1.25em;
     text-align: center;
     font-family: "Schibsted Grotesk", serif;
@@ -27,6 +27,9 @@ body{
 }
 
 #projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     border: solid, 2px, #0B2545;
     background-color: #8DA9C4;
     padding: 10px
