@@ -30,7 +30,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    border: solid, 2px, #0B2545;
+    border: solid, 3px, #0B2545;
     background-color: #8DA9C4;
     padding: 10px
 }
@@ -41,4 +41,20 @@ body{
     align-items: center;
     width: 520px;
     
+}
+img{
+    border: solid 4px #0B2545;
+}
+
+a:hover{
+    background-color: white;
+}
+a:active{
+    color: #8DA9C4;
+}
+a:visited{
+    color: #d0d0d0;
+}
+a:focus{
+    color: grey;
 }
